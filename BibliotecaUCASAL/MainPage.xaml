@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--P01-->
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BibliotecaUCASAL.MainPage">
+
+    <StackLayout BackgroundColor="Beige">
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+        <Label Text="Biblioteca UCASAL" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Button x:Name="btnIniciarSesion" Text="Iniciar Sesión" Clicked="btnIniciarSesion_Clicked" FontSize="Default"  Margin="20, 100, 20, 20" VerticalOptions="Center" Padding="20,20,20,20" HorizontalOptions="CenterAndExpand"></Button>
+        <Button x:Name="btnRegistrarUsuario" Text="¿Eres nuevo?" Clicked="btnRegistrarUsuario_Clicked"  Margin="20, 20, 20, 20" Padding="20,20,20,20" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" ></Button>
+
+
+    </StackLayout>
+
+</ContentPage>
+
+
+<!--<Button x:Name="" Text="" 
+                    Clicked="" 
+                    FontSize="Default"  
+                    Margin="20, 100, 20, 20" Padding="20,20,20,20" 
+                    VerticalOptions="Center"  
+                    HorizontalOptions="CenterAndExpand"></Button>-->

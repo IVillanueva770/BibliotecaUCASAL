@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BibliotecaUCASAL.Vistas.Menu">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Menú Principal"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize="40"
+                Padding="20,40,20,20"
+                   />
+
+            <Button x:Name="btnCatalogo" Text="Catálogo" 
+                    Clicked="btnCatalogo_Clicked" 
+                    FontSize="Medium"  
+                    Margin="20, 60, 20, 20" Padding="20,20,20,20" 
+                    VerticalOptions="Center"  
+                    HorizontalOptions="Center"></Button>
+            
+            <Button x:Name="btnInst" Text="Institucional" 
+                    Clicked="btnInst_Clicked" 
+                    FontSize="Medium"
+                    Margin="20, 10, 20, 20" Padding="20,20,20,20"  
+                    VerticalOptions="Center"  
+                    HorizontalOptions="Center"></Button>
+            
+            <Button x:Name="btnPerfil" Text="Mi Perfil" 
+                    Clicked="btnPerfil_Clicked" 
+                    FontSize="Medium"
+                    Margin="20, 10, 20, 20" Padding="20,20,20,20"  
+                    VerticalOptions="Center"  
+                    HorizontalOptions="Center"></Button>
+            
+            <Button x:Name="btnPrestamos" Text="Mis Préstamos" 
+                    Clicked="btnPrestamos_Clicked" 
+                    FontSize="Medium"
+                    Margin="20, 10, 20, 20" Padding="20,20,20,20" 
+                    VerticalOptions="Center"  
+                    HorizontalOptions="Center"></Button>
+
+            <Button x:Name="btnSalir" Text="Salir" 
+                    Clicked="btnSalir_Clicked"
+                    FontSize="15"
+                    Margin="20, 70, 200, 20" Padding="50,15,50,15" 
+                    VerticalOptions="Center"  
+                    HorizontalOptions="Center"
+                    BackgroundColor="PaleVioletRed"></Button>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

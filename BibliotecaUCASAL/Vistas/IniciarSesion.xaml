@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BibliotecaUCASAL.Vistas.IniciarSesion">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Inicio de Sesión"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize="30"
+                Padding="20,20,20,20"
+                   />
+            
+            <Entry Placeholder="Correo Electrónico" PlaceholderColor="Azure" ></Entry>
+            <Entry Placeholder="Contraseña" PlaceholderColor="Azure" IsPassword="True" ></Entry>
+            <Button x:Name="btnIngresar" BackgroundColor="AntiqueWhite" TextColor="Black" Text="Ingresar" Padding="20,10,20,10" Margin="200,20,20,20" Clicked="btnIngresar_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>
+    
+    
